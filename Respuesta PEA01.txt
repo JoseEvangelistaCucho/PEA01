@@ -1,0 +1,58 @@
+
+1. Diagramar una clase llamada producto, con sus atributos y 
+operaciones.
+_________________________
+|productos		|
+|_______________________|
+|int IDproducto 	|	
+|String NombreProducto 	|
+|int IDcategoria	|	
+|int CodCategoria	|
+|int Stock		|
+|numeric() PrecioUnit	|
+|_______________________|
+|ModificarProducto()	|
+|EliminarProducto()	|
+|AñadirProducto()	|
+|ListarProductos()	|
+|_______________________|
+
+
+2. ¿Qué es un jar y para qué sirve?
+---	Son herramientas y aplicaciones empaquetadas
+3. ¿Qué es el patrón MVC?
+--	son capas de desarrollo que tiene 3 componentes MODELO,VISTA,CONTROLADORES
+
+4. Declarar un array y asignarle valores.
+---	int numeros[]=new int[]{0,1,2,3,4,5,6,7,8,9};
+4.1 ¿Cómo se obtiene el primer valor del array?
+	int primernumero= numeros[0];
+        System.out.println("Numero 1:"+primernumero);
+4.2 ¿y el último?
+---     int primernumero= numeros[numeros.length-1];
+        System.out.println("Numero 1:"+primernumero);
+4.3 ¿Con qué estructura de control se itera/recorre un array? 
+de un ejemplo.
+-- Se recorre con estruturas repetitivas (For,While);
+Ejemplo For:
+
+	int numeros[]=new int[]{0,1,2,3,4,5,6,7,8,9};
+        int num;
+       	for(int i=0;i<numeros.length;i++){ 
+            num=numeros[i];
+	System.out.println("Numeros :"+num);
+       	}
+
+Ejemplo con While:
+	
+	int numeros[] = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int i = 0;
+        while (i < numeros.length) {
+            int num;
+            i++;
+            num = numeros[i];
+            System.out.println("Numeros :" + num);
+        }
+
+
+
